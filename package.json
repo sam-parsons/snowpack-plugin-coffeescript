@@ -1,0 +1,26 @@
+{
+  "name": "snowpack-plugin-coffeescript",
+  "version": "0.0.0",
+  "description": "",
+  "main": "plugin.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-parsons/snowpack-plugin-coffeescript.git"
+  },
+  "keywords": [],
+  "author": "Sam Parsons <samparsons269@gmail.com> (http://sam-parsons.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sam-parsons/snowpack-plugin-coffeescript/issues"
+  },
+  "homepage": "https://github.com/sam-parsons/snowpack-plugin-coffeescript#readme",
+  "devDependencies": {
+    "jest": "26.6.3"
+  }
+}
