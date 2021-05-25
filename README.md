@@ -9,7 +9,7 @@
 
 # snowpack-plugin-coffeescript
 
-Snowpack plugin
+Snowpack plugin the compiles CoffeeScript2 into ES5 JavaScript.
 
 ## Requirements
 
@@ -25,7 +25,7 @@ npm install --save-dev snowpack-plugin-coffeescript
 
 ## Usage
 
-Create a `snowpack.config.js` [configuration file](https://www.snowpack.dev/reference/configuration) and
+Create a `snowpack.config.js` [configuration file](https://www.snowpack.dev/reference/configuration) and insert the `'snowpack-plugin-coffeescript'` with the `plugin` property's array.
 
 ```js
 const dsv = require('snowpack-plugin-coffeescript');
