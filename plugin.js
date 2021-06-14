@@ -17,6 +17,7 @@ module.exports = function plugin(config, options) {
         extensions: [fileExt],
       };
 
+      // TODO: support for source maps
       const output = coffee.compile(code.toString(), options);
 
       return output;
